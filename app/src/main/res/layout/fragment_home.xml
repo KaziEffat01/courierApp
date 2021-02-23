@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </TextView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+    android:layout_gravity="center_horizontal"
+
+
+    >
+    <com.google.android.material.button.MaterialButton
+        android:id="@android:id/mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/Pink"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        app:cornerRadius="40dp"
+        style="?attr/materialButtonOutlinedStyle"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@android:id/mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/design_default_color_surface"
+            android:text="@string/signup"
+            android:fontFamily="cursive"
+            android:textSize="20sp"
+            android:textColor="@color/HotPink"
+
+
+
+            android:background="@drawable/ripple"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
