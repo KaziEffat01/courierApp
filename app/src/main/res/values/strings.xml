@@ -5,4 +5,9 @@
     <string name="title_notifications">Notifications</string>
     <string name="login">Log in</string>
     <string name="signup">Sign up</string>
+    <string name="createOrder">Create order</string>
+    <string name="noreg">Order with no registration</string>
+    <string name="tab1">FOR INDIVIDUALS</string>
+    <string name="tab2">FOR BUSINESS</string>
+
 </resources>

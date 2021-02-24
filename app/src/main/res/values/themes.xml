@@ -14,7 +14,9 @@
     </style>
         <!-- Customize your theme here. -->
 
-
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextColor">@color/default_text_color</item>
+    </style>
 
 
 
